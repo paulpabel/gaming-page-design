@@ -1,0 +1,9 @@
+
+/* nav section responsive */
+/* mobile and small device */
+@media screen and (max-width:576px){
+    .nav-container, .nav-item-container  {
+        flex-direction: column;
+    }   
+}
+/* nav section responsive end here */
