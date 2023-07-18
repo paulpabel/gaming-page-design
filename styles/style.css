@@ -134,10 +134,16 @@ body {
     margin-bottom: 30px;
 }
 
-.game-image-container {
+.game-image-container{
     display: flex;
-    justify-content: space-evenly;
-}
+    justify-content: space-between;
+    align-items: center; 
+    /* margin-left: 200px;
+    margin-right: 10px; */
+    gap: 20px;
+   
+} 
+
 
 .span-2 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -158,8 +164,10 @@ body {
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
+    margin-top: 15px;
+   }
    
-}
+  
 
 
 

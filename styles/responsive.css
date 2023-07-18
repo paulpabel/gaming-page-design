@@ -18,7 +18,9 @@
      width: 400px;
      margin-bottom: 10px;
     }
-    
+    .game-image-container{
+        flex-direction: column;
+    }
     
 }
 
