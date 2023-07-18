@@ -1,9 +1,25 @@
 
 /* nav section responsive */
-/* mobile and small device */
+/* for mobile and small device */
 @media screen and (max-width:576px){
     .nav-container, .nav-item-container  {
         flex-direction: column;
-    }   
+    }  
+    .fa-brands{
+        padding-right: 5px;
+    } 
+
+    /* banner section */
+    .banner-container{
+        flex-direction: column;
+  
+    }
+    .banner-content{
+     width: 400px;
+     margin-bottom: 10px;
+    }
+    
+    
 }
-/* nav section responsive end here */
+
+
