@@ -38,7 +38,7 @@ body {
 }
 
 .nav-item-container {
-  
+
     display: flex;
     gap: 40px;
     align-items: center;
@@ -51,7 +51,7 @@ body {
     text-align: center;
     font-size: 18px;
     gap: 56px;
-   
+
 }
 
 .fa-brands {
@@ -101,7 +101,7 @@ body {
     font-weight: 800;
     margin-top: 0;
     margin-bottom: 20px;
-   
+
 }
 
 .banner-content p {
@@ -126,9 +126,40 @@ body {
 }
 
 
-/* banner section starts here */
+/* game container section starts here */
 
+.game-content-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 
+.game-image-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.span-2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.game-content-container h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.game-content-container p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
 
 
 
