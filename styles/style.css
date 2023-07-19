@@ -127,7 +127,7 @@ body {
 
 
 /* game container section starts here */
-.game-container{
+.game-container {
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -171,7 +171,7 @@ body {
 }
 
 /* play section styles starts */
-.play-container{
+.play-container {
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -207,36 +207,69 @@ body {
     margin-top: 10px;
 }
 
-.play-image-container .my-talking{
+.play-image-container .my-talking {
     width: 300px;
     position: relative;
     bottom: 250px;
 
 }
+
 .play-image-container .images {
     /* height: 100%; */
     margin-left: 150px;
 }
 
 /* footer section starts */
-.logo{
+.footer-container {
+    background-color: #0B0223;
+}
+
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
     gap: 10px;
     margin-bottom: 20px;
+    padding-top: 40px;
 }
+
 .logo p {
     color: #FF42A5;
     font-size: 45px;
     height: 50px;
     font-weight: 700;
-    
+
 }
-.footer-option{
+
+.span-3 {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-option {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+.icon-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-option2 {
+    color: rgba(255, 255, 255, 0.60);
     display: flex;
     justify-content: space-around;
     width: 700px;
     margin: 0 auto;
+
 }
