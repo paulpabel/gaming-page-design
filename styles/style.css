@@ -217,3 +217,26 @@ body {
     /* height: 100%; */
     margin-left: 150px;
 }
+
+/* footer section starts */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.logo p {
+    color: #FF42A5;
+    font-size: 45px;
+    height: 50px;
+    font-weight: 700;
+    
+}
+.footer-option{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin: 0 auto;
+}
