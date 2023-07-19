@@ -128,22 +128,16 @@ body {
 
 /* game container section starts here */
 
-.game-content-container {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
 
 .game-image-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center; 
     /* margin-left: 200px;
     margin-right: 10px; */
     gap: 20px;
    
 } 
-
 
 .span-2 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -152,12 +146,16 @@ body {
     -webkit-text-fill-color: transparent;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .game-content-container h2 {
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .game-content-container p {
@@ -165,6 +163,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-top: 15px;
+    text-align: center;
    }
    
   
