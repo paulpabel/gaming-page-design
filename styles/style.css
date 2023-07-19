@@ -127,17 +127,21 @@ body {
 
 
 /* game container section starts here */
+.game-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
-.game-image-container{
+.game-image-container {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     /* margin-left: 200px;
     margin-right: 10px; */
     gap: 20px;
-   
-} 
+
+}
 
 .span-2 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -164,14 +168,52 @@ body {
     font-weight: 400;
     margin-top: 15px;
     text-align: center;
-   }
-   
-  
+}
+
+/* play section styles starts */
+.play-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 
+.play-content-container {
+    width: 500px;
+}
 
+.play-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 0px;
+}
 
+.play-content-container {
+    text-align: center;
+}
 
+.play-content-container h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
 
+.play-content-container p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
 
-/* banner section ends here */
+.play-image-container .my-talking{
+    width: 300px;
+    position: relative;
+    bottom: 250px;
+
+}
+.play-image-container .images {
+    /* height: 100%; */
+    margin-left: 150px;
+}

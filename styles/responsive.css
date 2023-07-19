@@ -9,7 +9,7 @@
         padding-right: 5px;
     } 
 
-    /* banner section */
+ 
     .banner-container{
         flex-direction: column;
   
@@ -18,10 +18,17 @@
      width: 400px;
      margin-bottom: 10px;
     }
-    .game-image-container{
+    .game-image-container, .play-container{
         flex-direction: column;
       }
-    
+      .play-image-container .images{
+        margin-left: 0px;
+      }
+      .play-container{
+        margin: 5px;
+      }
+      
+
 }
 
 
