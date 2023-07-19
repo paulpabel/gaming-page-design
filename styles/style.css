@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: space-between;
     min-height: 86px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     align-items: center;
 }
 
@@ -173,8 +173,8 @@ body {
 /* play section styles starts */
 .play-container {
     margin-top: 50px;
-    border: 5px solid blueviolet;
-    }
+    
+}
 
 
 .play-content-container {
@@ -183,15 +183,19 @@ body {
 
 .play-container {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
     margin-top: 50px;
-    margin-bottom: 0px;
-    gap: 0px;
+    border: 3px solid red;
+  
 }
 
 .play-content-container {
+    /* text-align: center;
+    padding-left: 200px; */
+    align-items: center;
     text-align: center;
+    padding-left: 200px;
 }
 
 .play-content-container h2 {
@@ -209,7 +213,7 @@ body {
 }
 
 .play-image-container .my-talking {
-    width: 300px;
+    width: 50px;
     position: relative;
     bottom: 250px;
 
@@ -217,15 +221,17 @@ body {
 
 .play-image-container .images {
     /* height: 100%; */
-    margin-left: 150px;
+    margin-left: 100px;
+    height: 100%;
+    align-items: center;
+
 }
 
 /* game-banner section starts here */
 
-.game-banner{
+.game-banner {
     margin-top: 0px;
-    border: 5px solid red;
-    
+
 }
 
 .game {
@@ -235,20 +241,30 @@ body {
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
-    }
+}
 
-    .game-banner-row1{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-    
-    .game-banner-row2{
-        display: flex;
-        justify-content: space-evenly;
-        margin-bottom: 50px;
-    }
+.game-banner .game:hover {
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.game:hover {
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.game-banner-row1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-banner-row2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
 
 
 
@@ -306,4 +322,3 @@ body {
     width: 700px;
     margin: 0 auto;
 }
-

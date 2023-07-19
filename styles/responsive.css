@@ -21,22 +21,34 @@
     .game-image-container, .play-container{
         flex-direction: column;
       }
+      .game-banner-row1{
+        flex-direction: column;
+        margin-top: 50cm;
+        align-items: center;
+      }
+
+      .game-banner-row2{
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+      }
+       
       .play-image-container .images{
         margin-left: 0px;
       }
       .play-container{
         margin: 5px;
       }
-      /* .footer-container{
-        max-width:  70;
-      } */
+      
+      
 
       .footer-option, .footer-option2{
         flex-direction: column;
         align-items: center;
+        
       }
+
       
-       
 
 }
 
