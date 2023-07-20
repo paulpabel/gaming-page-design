@@ -173,7 +173,7 @@ body {
 /* play section styles starts */
 .play-container {
     margin-top: 50px;
-    
+
 }
 
 
@@ -186,8 +186,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    
-  
+
+
 }
 
 .play-content-container {
@@ -243,14 +243,12 @@ body {
     font-weight: 600;
 }
 
-.game-banner .game:hover {
-    border-radius: 50px;
-    background: #FFF;
+.game-banner-row1 .game:hover {
+    border: 2px solid red;
 }
 
-.game:hover {
-    border-radius: 50px;
-    background: #FFF;
+.game-banner-row2 .game:hover {
+    border: 2px solid red;
 }
 
 .game-banner-row1 {
@@ -310,10 +308,19 @@ body {
     margin: 20px auto;
 }
 
-.icon-container {
-    text-align: center;
+.icon-container a {
     margin-bottom: 20px;
+    border-radius: 50%;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 40px;
 }
+
+.icon-container{
+    text-align: center;
+}
+
 
 .footer-option2 {
     color: rgba(255, 255, 255, 0.60);
@@ -321,11 +328,4 @@ body {
     justify-content: space-around;
     width: 700px;
     margin: 0 auto;
-}
-.game-banner-row1 .game:hover {
-    border: 2px solid red;
-}
-
-.game-banner-row2 .game:hover {
-    border: 2px solid red;
 }
