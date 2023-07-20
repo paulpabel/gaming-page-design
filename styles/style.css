@@ -322,3 +322,10 @@ body {
     width: 700px;
     margin: 0 auto;
 }
+.game-banner-row1 .game:hover {
+    border: 2px solid red;
+}
+
+.game-banner-row2 .game:hover {
+    border: 2px solid red;
+}
